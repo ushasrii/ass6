@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Form Tag Assignment</title>
+    <style>
+       
+        .border-example {
+            border: 2px solid #333; 
+            padding: 10px; 
+        }
+    </style>
+
+</head>
+<body bgcolor="yellow">
+    <div class="border-example">
+    <form>
+    <h1 align="center">HTML Form Tag Assignment</h1>
+    <h3 align="right">Date: 18-12-2023</h3>
+    <hr>
+    <h4>1. Design a basic contact form with fields for name, email, and message to allow users to send inquiries or feedback.</h4>
+    <table align="center" height="50%">
+        <caption><h1>Contact form</h1></caption>
+        <tr>
+            <td>User Name: </td><td><input type="text" name="uname" placeholder="User Name"></td>
+        </tr>
+        <tr>
+            <td>Email: </td><td><input type="email" name="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td>Message: </td><td><textarea name="message" placholder="Type Here.."></textarea></td>
+        </tr>
+        <tr>
+            <td>Feedback: </td><td><input type="range"></td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td><td><input type="reset"></td>
+        </tr>
+    </table>
+    <h4>2. Develop a registration form with input fields for username, email, password, and a confirmation field to register new users on a website.</h4>
+    <table align="center">
+        <caption><h1>Registration form</h1></caption>
+        <tr>
+            <td>User Name: </td><td><input type="text" name="uname" placeholder="User Name"></td>
+        </tr>
+        <tr>
+            <td>Email: </td><td><input type="email" name="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td>Password: </td><td><input type="password" name="pwd" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <td>Confirm Password: </td><td><input type="password" name="cpwd" placeholder="Confirm Password"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Register</button></td><td><input type="reset"></td>
+        </tr>
+    </table>
+    <h4>3. Construct an order form for an online store, including options for selecting products, quantity, and shipping details.</h4>
+    <table align="center">
+        <caption><h1>Order Form</h1></caption>
+        <tr>
+            <td>Selecting Products: </td><td><select  name="product">
+                <option value="product1">Product 1 - $10.00</option>
+                <option value="product2">Product 2 - $20.00</option>
+                <option value="product3">Product 3 - $30.00</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Quantity: </td><td><input type="number" name="quantity" placeholder="Quantity"</td>
+        </tr>
+        <tr>
+            <td>Shipping Details: </td><td> <textarea  name="address"></textarea></td>
+        </tr>
+        
+       <tr><td><input type="submit"></td><td><input type="reset"></td>
+        </tr>
+    </table></form>
+    <h4>4. Create a search form with a text input field and a search button to enable users to search for specific information on a website.</h4>
+    <table align="center">
+        <caption><h1>Search Form</h1></caption>
+        <tr>
+            <td><input type="text" id="search" name="search" placeholder="Search..."></td>
+                <td><button type="submit">Search</button></td>
+        </td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
